@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Examples on usage of the JQuery</title>
+    <link rel="stylesheet" type="text/css" href="css/jquery-example.css" />
+    <script src="scripts/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+    <div>See how it works...</div>
+    <div id="paragraphToHide">You will not see me!</div>
+    <div class="bold"></div>
+    <button>First button</button>
+    <button>Second button</button>
+    <script>
+        $("#paragraphToHide").hide();
+        $(".bold").html("Yes, this is an element with a css bold class.");
+        $("button:first").click(function () { $("#paragraphToHide").fadeIn(5000); });
+        $("button:last").click(function () { $("#paragraphToHide").fadeOut(2000); });
+    </script>
+
+    <br />
+    <a href="index.html">Back...</a>
+</body>
+</html>

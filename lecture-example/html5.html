@@ -1,0 +1,14 @@
+﻿<!DOCTYPE html>
+<html manifest="example.appcache">
+<head>
+    <title>HTML5 features</title>
+    <script src="scripts/jquery-1.11.3.min.js"></script>
+    <script src="scripts/html5.js"></script>
+</head>
+<body>
+    <div id="persistent">Here we will count permamently.</div>
+    <button onclick="clickCounterPersistent($('#persistent'));">Click for ever!</button>
+    <button onclick="clickCounterSessin($(this));">Click for session!</button>
+    
+</body>
+</html>

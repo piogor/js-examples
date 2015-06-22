@@ -1,0 +1,12 @@
+﻿CACHE MANIFEST
+# 2015-06-21 v1.0.0
+/scripts/hello-world-alert.js
+/scripts/hello-world-alert.js
+/scripts/html5.js
+/html5.html
+
+NETWORK:
+/scripts/hello-world-function.js
+
+FALLBACK:
+/hello-world.html
