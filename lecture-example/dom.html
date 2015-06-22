@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="scripts/dom.js"></script>
+</head>
+<body>
+    <div id="first_chapter">
+        <h1 id="header">How to browse the document</h1>
+        <p id="p1">First paragraph</p>
+        <p id="p2">Second paragraph</p>
+        <div>
+            <p id="p3">Here come a bit longer text</p>
+        </div>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>        
+    </div>
+    
+    
+    <button onclick="browse_elements(document.getElementById('first_chapter'), 'output');">Browse</button>
+    <button onclick="add_elements(document.getElementById('first_chapter'), document.getElementById('out_list'));">Add elements example</button>
+    <div id="output"></div>
+
+    <ul id="out_list"></ul>
+
+</body>
+</html>
